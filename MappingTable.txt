@@ -1,0 +1,34 @@
+use auroraopss;
+
+create database auroraopss;
+
+drop database auroraopss;
+
+show tables;
+
+desc projectmaster;
+
+desc businessmaster;
+
+desc chorusmaster;
+
+desc cliententitymaster;
+
+desc deliverymaster;
+
+desc programmaster;
+
+desc projectleadmaster;
+
+desc projectmaster;
+
+desc resourcemaster;
+
+desc sectormaster;
+
+desc segmentmaster;
+
+desc servicetypemaster;
+
+desc sowmaster;
+
