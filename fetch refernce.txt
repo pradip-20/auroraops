@@ -1,0 +1,36 @@
+
+@Repository
+public interface DashboardRepository extends JpaRepository<ProgramMaster, Integer> {
+	
+	
+	
+	  @Query(value="SELECT Segment_Value AS Segment,Program_Name AS Program,Project_Name AS Project,Aurora_Risk_Seq AS 'RiskID',Risk_type AS 'RiskCategory',GROUP_CONCAT(DISTINCT Risk_Indicator) AS 'RiskIdentifiedThrough',Risk_Indicator_Source AS 'RiskIdentifiedBy',GROUP_CONCAT(DISTINCT Impact_Type) AS Impact,rag_status_value AS RAG,DATE_FORMAT(Created_Date, '%d-%b-%y') AS 'Opensince' FROM (SELECT S.Segment_Value,pmr.Program_Name,pm.Project_Name,rl.Aurora_Risk_Seq,cm.risk_type,rimm.Risk_Indicator,rl.Risk_Indicator_Source,im.Impact_Type,rs.rag_status_value,rl.Created_Date,rl.risk_status FROM program_master pmr INNER JOIN project_master pm ON pm.Aurora_Program_Seq_fk = pmr.Aurora_Program_Seq INNER JOIN SEGMENT S ON S.Aurora_Segment_Seq = PM.Aurora_Segment_Seq_fk INNER JOIN risk_log rl ON pm.Aurora_Program_Seq = rl.Aurora_Project_Seq_fk INNER JOIN rag_status rs ON rl.Aurora_RAG_Status_Seq_fk = rs.Aurora_RAG_Status_Seq INNER JOIN risk_impact ri ON ri.Aurora_Risk_Seq_pk_fk = rl.Aurora_Risk_Seq INNER JOIN impact_master im ON im.Aurora_Impact_Category_Seq = ri.Aurora_Impact_Category_Seq_pk_fk INNER JOIN risk_log_indicator li ON li.Aurora_Risk_Seq_pk_fk = rl.Aurora_Risk_Seq INNER JOIN risk_indicator_master rim ON rim.Aurora_Risk_Indicator_Seq = li.Aurora_Risk_Indicator_Seq_pk_fk INNER JOIN risk_category_master cm ON cm.Aurora_Risk_Category_Seq = rim.Aurora_Risk_Category_Seq_fk INNER JOIN risk_indicator_master rimm ON rimm.Aurora_Risk_Category_Seq_fk = cm.Aurora_Risk_Category_Seq WHERE rs.RAG_Status_Value = 'CODE REDS' && rl.risk_status = 'A' OR rs.RAG_Status_Value = 'AMBER ESCALATE' && rl.Risk_Status = 'A'  ) AS inner_query1 GROUP BY Aurora_Risk_Seq ORDER BY RAG_Status_Value DESC , Created_Date ASC;"  
+	  	, nativeQuery = true)
+	    List<CriticalRisksDTO> getCustomerDetails();
+	  
+	 
+	}
+
+
+package com.aurora.sbudashboard.dto;
+
+public interface  CriticalRisksDTO {
+	
+	
+	
+	
+	
+	 String getSegment();
+	 String getProgram();
+	 String getProject();
+	 Integer getRiskID();
+	 String getRiskCategory();
+	 String getRiskIdentifiedThrough();
+	 String getRiskIdentifiedBy(); 
+	 String getImpact(); 
+	 String getRAG(); 
+	 String getOpensince();
+
+	
+
+}
