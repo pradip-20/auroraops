@@ -1,0 +1,317 @@
+insert into pricingconstructmaster values(14,"p4");
+insert into segmentmaster values(24,"d4");
+insert into deliverymaster values(34,"df4");
+insert into sectormaster values(44,"sector4");
+insert into servicetypemaster values(54,"service4");
+insert into businessmaster values(64,"busym4");
+insert into citientitymaster values(74,"legal4");
+insert into programmaster values(84,"pari",'2016-08-20',"aditya",'2017-07-17',"ram pothineni","shreyash ayyar");
+
+insert into pricingconstructmaster values(15,"pc5");
+insert into segmentmaster values(25,"d5");
+insert into deliverymaster values(35,"df5");
+insert into sectormaster values(45,"sector5");
+insert into servicetypemaster values(55,"service5");
+insert into businessmaster values(65,"busym5");
+insert into citientitymaster values(75,"legal5");
+insert into programmaster values(85,"aaditya",'2019-07-21',"akash",'2019-06-19',"akhil akkineni","ambati rayudu");
+
+insert into pricingconstructmaster values(16,"pc6");
+insert into segmentmaster values(26,"d6");
+insert into deliverymaster values(36,"df6");
+insert into sectormaster values(46,"sector6");
+insert into servicetypemaster values(56,"service6");
+insert into businessmaster values(66,"busym6");
+insert into citientitymaster values(76,"legal6");
+insert into programmaster values(86,"arvindh",'2016-07-21',"avinash",'2020-06-19',"akash akkineni","narayan vasu");
+
+
+insert into pricingconstructmaster values(17,"pc7");
+insert into segmentmaster values(27,"d7");
+insert into deliverymaster values(37,"df7");
+insert into sectormaster values(47,"sector7");
+insert into servicetypemaster values(57,"service7");
+insert into businessmaster values(67,"busym7");
+insert into citientitymaster values(77,"legal7");
+insert into programmaster values(87,"kaka",'2017-08-25',"ravish",'2020-06-20',"shreya saran","narayan murthy");
+
+
+
+insert into pricingconstructmaster values(18,"pc8");
+insert into segmentmaster values(28,"d8");
+insert into deliverymaster values(38,"df8");
+insert into sectormaster values(48,"sector8");
+insert into servicetypemaster values(58,"service8");
+insert into businessmaster values(68,"busym8");
+insert into citientitymaster values(78,"legal8");
+insert into programmaster values(88,"mohit",'2017-08-25',"abhisarshrama",'2020-06-20',"depak chaurasia","rahul kulankar");
+
+insert into pricingconstructmaster values(19,"pc9");
+insert into segmentmaster values(29,"d9");
+insert into deliverymaster values(39,"df9");
+insert into sectormaster values(49,"sector9");
+insert into servicetypemaster values(59,"service9");
+insert into businessmaster values(69,"busym9");
+insert into citientitymaster values(79,"legal9");
+insert into programmaster values(89,"mohit",'2017-08-25',"abhisarshrama",'2020-06-20',"depak chaurasia","rahul kulankar");
+
+
+insert into pricingconstructmaster values(231,"pc");
+insert into deliverymaster values(331,"df331");
+insert into sectormaster values(431,"sector431");
+insert into servicetypemaster values(531,"service531");
+insert into businessmaster values(631,"busym631");
+insert into citientitymaster values(731,"legal731");
+insert into segmentmaster values(1,'AMBER BFS CITI TTS');
+insert into programmaster values(1,'Akhil','2020-09-21', 'sahil','2020-09-22','Sanjeev Pinnamaneni','STaRS');
+
+insert into pricingconstructmaster values(232,"pc");
+insert into deliverymaster values(332,"df331");
+insert into sectormaster values(432,"sector431");
+insert into servicetypemaster values(532,"service531");
+insert into businessmaster values(632,"busym631");
+insert into citientitymaster values(732,"legal731");
+insert into segmentmaster values(2, 'GCB');
+insert into programmaster values(2,'Akhil','2020-09-21',"amar",'2020-09-22', 'Vijayakumar Settybalija','ICG L2 Production Support' );
+
+insert into pricingconstructmaster values(233,"pc");
+insert into deliverymaster values(333,"df331");
+insert into sectormaster values(433,"sector431");
+insert into servicetypemaster values(533,"service531");
+insert into businessmaster values(633,"busym631");
+insert into citientitymaster values(733,"legal731");
+insert into segmentmaster values(3, 'GFTS');
+insert into programmaster values(3,'Akhil','2020-09-21',"amar",'2020-09-22', 'Vijayakumar Settybalija','GCB / GCG Indian Services' );
+
+
+
+
+
+
+insert into sowmaster values(104,"kolkata","n","sanjaypm","sanjaypm@gmail.com","prasad3@gmail.com","prasadmule"
+,"merto","wasim",'2017-01-23',"fg4","geo4",124,"ajay",'2012-03-12',"good","sowconid4",
+"sowconpd4",'2016-08-22',"sourcedats4",'2014-08-20',"P",'2017-07-19',124,"raj@virtusa.com",
+"raj",'2019-05-19',"y",54,44,74,64);
+
+
+
+insert into sowmaster values(105,"noida","y","shradha","shradhapm@gmail.com","pravin3@gmail.com","pravin gandhi"
+,"civil","Jayesh",'2018-12-11',"fg5","geo5",125,"rohit",'2019-03-12',"best","sowconid5",
+"sowconpd5",'2012-09-24',"sourcedats5",'2012-01-21',"a",'2011-07-14',123,"gautam@virtusa.com",
+"asurkumar",'2019-05-18',"n",55,45,75,65);
+
+insert into sowmaster values(106,"gondia","n","shreya","shradhapm20@gmail.com","pravin30@gmail.com","as gandhi"
+,"civil","Jayesh",'2018-12-11',"fg5","geo5",125,"rohit",'2019-03-12',"best","sowconid5",
+"sowconpd5",'2012-09-24',"sourcedats5",'2012-01-21',"a",'2011-07-14',123,"gautam@virtusa.com",
+"asurkumar",'2019-05-18',"n",56,46,76,66);
+
+insert into sowmaster values(107,"pune","y","radha","radhapm20@gmail.com","sanika30@gmail.com","sanika"
+,"civil-serve","mahesh",'2019-12-15',"fg6","geo6",126,"mohihit",'2019-05-18',"best","sowconid7",
+"sowconpd7",'2014-09-24',"sourcedats7",'2012-01-24',"a",'2011-07-14',123,"gaurav@virtusa.com",
+"asurkumar",'2019-05-18',"n",57,47,77,67);
+
+
+insert into sowmaster values(108,"delhi","n","rachna","rachanam20@gmail.com","sahil30@gmail.com","sahil"
+,"comp asso","sandhya",'2020-12-16',"fg7","geo7",127,"sahil",'2020-05-18',"good","sowconid8",
+"sowconpd8",'2014-09-25',"sourcedats8",'2012-01-25',"p",'2011-07-17',127,"abhi@virtusa.com",
+"abhijit",'2019-05-18',"y",58,48,78,68);
+
+
+insert into sowmaster values(109,"delhi","n","rachna","rachanam20@gmail.com","sahil30@gmail.com","sahil"
+,"comp asso","sandhya",'2020-12-16',"fg9","geo7",127,"sahil",'2020-05-18',"good","sowconid9",
+"sowconpd9",'2014-09-25',"sourcedats9",'2012-01-25',"p",'2011-07-17',127,"abhi@virtusa.com",
+"abhijit",'2019-05-18',"y",59,49,79,69);
+
+
+insert into sowmaster values(1,"ranchi","n","rohan","rohanm20@gmail.com","sai0@gmail.com","sai"
+,"comp asso1","aardhya",'2020-12-16',"fg7","geo7",127,"sahil",'2020-05-18',"better","sowconid1",
+"sowconpd1",'2014-09-25',"sourcedats1",'2012-01-25',"p",'2011-07-17',127,"arahul@virtusa.com",
+"rahul",'2019-05-18',"y",531,431,731,631);
+
+
+insert into sowmaster values(2,"mohali","n","ranvijay","ranvijay0@gmail.com","ganga0@gmail.com","ganga"
+,"comp asso2","aardhya",'2020-12-16',"fg2","geo2",127,"sahil",'2020-05-18',"better","sowconid2",
+"sowconpd2",'2014-09-25',"sourcedats2",'2012-01-25',"p",'2011-07-17',127,"arahul@virtusa.com",
+"rahul",'2019-05-18',"y",532,432,732,632);
+
+insert into sowmaster values(3,"BANG","n","ranvijay","ranvijay0@gmail.com","ganga0@gmail.com","ganga"
+,"comp asso2","aardhya",'2020-12-16',"fg2","geo2",127,"sahil",'2020-05-18',"better","sowconid2",
+"sowconpd2",'2014-09-25',"sourcedats2",'2012-01-25',"p",'2011-07-17',127,"arahul@virtusa.com",
+"rahul",'2019-05-18',"y",533,433,733,633);
+
+
+
+
+
+
+insert into projectmaster values(204,"Rutuja",'2015-08-20',"ep available4","engplanreason4",
+"gdprproj4","govrep-vailable","4 months",14,24,"hifgconf4","itclust4","kpiappl yes",14,"santosh babu",'2017-10-18',
+"sdlc4","projlifecycle4","projdev4","Msst rpa aa","start","rtimeobj4","rnoteyes","Good",
+"y","slaappl-yes","selfass-yes",134,'2018-09-19',"veloprojcod4",'2019-07-16',"rohitsharma@gmail.com","rohitsharma",
+"amankumar3@gmail.com","amankumar","prasadkrishna3@gmail.com","prasadkrishna","seghead4",104,54,24,84,14,34);
+
+
+insert into projectmaster values(205,"Shravan",'2019-04-20',"ep available5","engplanreason5",
+"gdprproj5","govrep-not-vailable","5 months",24,14,"hifgconf5","itclust5","kpiappl no",15,"amar babu",'2011-11-18',
+"sdlc5","projlifecycle5","projdev5","Msst rpa aa5","middle","rtimeobj5","rnoteno","better",
+"n","slaappl-no","selfass-no",135,'2017-10-18',"veloprojcod5",'2011-08-17',"mohitsharma@gmail.com","mohitsharma",
+"rakeshkumar3@gmail.com","rakeshkumar","udaykrishna3@gmail.com","udykrishna","seghead5",105,55,25,85,15,35);
+
+
+insert into projectmaster values(206,"Shravan",'2019-04-20',"ep available5","engplanreason5",
+"gdprproj5","govrep-not-vailable","5 months",24,14,"hifgconf5","itclust5","kpiappl no",15,"amar babu",'2011-11-18',
+"sdlc5","projlifecycle5","projdev5","Msst rpa aa5","middle","rtimeobj5","rnoteno","better",
+"n","slaappl-no","selfass-no",135,'2017-10-18',"veloprojcod5",'2011-08-17',"mohitsharma@gmail.com","mohitsharma",
+"rakeshkumar3@gmail.com","rakeshkumar","udaykrishna3@gmail.com","udykrishna","seghead5",106,56,26,86,16,36);
+
+
+insert into projectmaster values(207,"Sai",'2019-04-20',"ep available7","engplanreason7",
+"gdprproj7","govrep--vailable","7 months",24,14,"hifgconf7","itclust7","kpiappl yes",16,"soham babu",'2019-11-18',
+"sdlc7","projlifecycle7","projdev5","Msst rpa aa7","start","rtimeobj7","rnoteno","best",
+"y","slaappl-yes","selfass-yes",137,'2017-10-19',"veloprojcod7",'2011-08-19',"atishharma@gmail.com","atisgsharma",
+"ramkumar3@gmail.com","ramhkumar","sahu3@gmail.com","sahu","seghead7",107,57,27,87,17,37);
+
+
+insert into projectmaster values(208,"varun",'2019-04-20',"ep available8","engplanreason8",
+"gdprproj8","govrep-not-vailable","1 months",24,14,"hifgconf8","itclust8","kpiappl no",18,"shshikant",'2019-11-18',
+"sdlc8","projlifecycle8","projdev8","Msst rpa aa8","end","rtimeobj8","rnoteyes","best",
+"y","slaappl-no","selfass-no",138,'2018-10-19',"veloprojcod8",'2011-08-20',"jayantvermaa@gmail.com","jayantverma",
+"rahulkumar3@gmail.com","rahulhkumar","reshma3@gmail.com","reshma","seghead8",108,58,28,88,18,38);
+
+
+
+insert into projectmaster values(209,"varun",'2019-04-20',"ep available8","engplanreason8",
+"gdprproj8","govrep-not-vailable","1 months",24,14,"hifgconf8","itclust8","kpiappl no",18,"shshikant",'2019-11-18',
+"sdlc8","projlifecycle8","projdev8","Msst rpa aa8","end","rtimeobj8","rnoteyes","best",
+"y","slaappl-no","selfass-no",138,'2018-10-19',"veloprojcod8",'2011-08-20',"jayantvermaa@gmail.com","jayantverma",
+"rahulkumar3@gmail.com","rahulhkumar","reshma3@gmail.com","reshma","seghead8",109,59,29,89,19,39);
+
+insert into projectmaster values(1,"varun",'2019-04-20',"ep available8","engplanreason8",
+"gdprproj8","govrep-not-vailable","1 months",24,14,"hifgconf8","itclust8","kpiappl no",18,"shshikant",'2019-11-18',
+"sdlc8","projlifecycle8","projdev8","Msst rpa aa8","end","rtimeobj8","rnoteyes","best",
+"y","slaappl-no","selfass-no",138,'2018-10-19',"veloprojcod8",'2011-08-20',"jayantvermaa@gmail.com","jayantverma",
+"rahulkumar3@gmail.com","rahulhkumar","reshma3@gmail.com","reshma","seghead8",1,531,1,1,231,331);
+
+insert into projectmaster values(2,"akhil",'2020-09-21',"ep available8","engplanreason8",
+"gdprproj2","govrep-not-vailable","1 months",24,14,"hifgconf2","itclust2","kpiappl yes",18,"shshikant",'2019-11-18',
+"sdlc2","projlifecycle2","projdev8","Msst rpa aa2","end","rtimeobj8","rnoteyes","best",
+"y","slaappl-no","selfass-no",138,'2018-10-19',"veloprojcod8",'2011-08-20',"jayantvermaa@gmail.com","jayantverma",
+"rahulkumar3@gmail.com","rahulhkumar","reshma3@gmail.com","reshma","seghead2",2,532,2,2,232,332);
+
+insert into projectmaster values(3,"akhil",'2020-09-21',"ep available8","engplanreason8",
+"gdprproj2","govrep-not-vailable","1 months",24,14,"hifgconf2","itclust2","kpiappl yes",18,"shshikant",'2019-11-18',
+"sdlc2","projlifecycle2","projdev8","Msst rpa aa2","end","rtimeobj8","rnoteyes","best",
+"y","slaappl-no","selfass-no",138,'2018-10-19',"veloprojcod8",'2011-08-20',"jayantvermaa@gmail.com","jayantverma",
+"rahulkumar3@gmail.com","rahulhkumar","reshma3@gmail.com","reshma","seghead2",3,533,3,3,233,333);
+
+
+
+
+
+
+
+insert into chorusmaster values(304,'2020-10-19',"TTs chorus4",'2020-06-17',"Asif",'2019-07-14',
+"aman",'2021-09-19',"proctemp4",204);
+
+insert into chorusmaster values(305,'2020-10-19',"TTs chorus5",'2020-06-17',"amol",'2019-07-14',
+"shravan",'2027-08-19',"proctemp5",205);
+
+insert into chorusmaster values(306,'2020-10-19',"TTs chorus5",'2020-06-17',"ramol",'2019-07-14',
+"shvan",'2027-08-19',"proctemp6",206);
+
+insert into chorusmaster values(307,'2020-10-19',"TTs chorus7",'2020-06-17',"rahil",'2019-07-14',
+"sam",'2027-08-20',"proctemp7",207);
+
+insert into chorusmaster values(308,'2020-10-20',"TTs chorus8",'2020-06-19',"viraj",'2019-07-14',
+"amar",'2027-08-20',"proctemp8",208);
+
+insert into chorusmaster values(309,'2020-10-20',"TTs chorus8",'2020-06-19',"viraj",'2019-07-14',
+"amar",'2027-08-20',"proctemp8",209);
+
+insert into chorusmaster values(1,'2020-10-20',"TTs chorus1",'2020-06-19',"viraj",'2019-07-14',
+"amar",'2027-08-20',"proctemp1",1);
+
+insert into chorusmaster values(2,'2020-10-20',"TTs chorus2",'2020-06-19',"viraj",'2019-07-14',
+"amar",'2027-08-20',"proctemp2",2);
+insert into chorusmaster values(3,'2020-10-20',"TTs chorus2",'2020-06-19',"viraj",'2019-07-14',
+"amar",'2027-08-20',"proctemp2",3);
+
+
+
+
+
+
+
+
+insert into projectleadmaster values(304,"january",1999,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi4",'2014-02-13',3.1,.5,"eiqbase4",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"ajay4",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth4",
+"resonbord4",34,224,3.0,4.0,304);
+
+insert into projectleadmaster values(305,"december",1999,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi4",'2014-02-13',3.1,.5,"eiqbase5",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"ajay5",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth4",
+"resonbord5",34,224,3.0,4.0,305);
+
+insert into projectleadmaster values(306,"december",1999,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi4",'2014-02-13',3.1,.5,"eiqbase5",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"ajay5",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth4",
+"resonbord5",34,224,3.0,4.0,306);
+
+
+insert into projectleadmaster values(307,"october",2007,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi7",'2014-02-13',3.1,.5,"eiqbase7",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"ajay5",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth7",
+"resonbord7",34,224,3.0,4.0,307);
+
+insert into projectleadmaster values(308,"september",2009,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi8",'2014-02-13',3.1,.5,"eiqbase8",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"rohit",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth8",
+"resonbord8",34,224,3.0,4.0,308);
+
+
+insert into projectleadmaster values(309,"september",2009,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi8",'2014-02-13',3.1,.5,"eiqbase8",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"rohit",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth8",
+"resonbord8",34,224,3.0,4.0,309);
+
+
+insert into projectleadmaster values(1,"september",2009,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi1",'2014-02-13',3.1,.5,"eiqbase1",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"sashi",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth1",
+"resonbord1",34,224,3.0,4.0,1);
+
+insert into projectleadmaster values(2,"september",2009,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi1",'2014-02-13',3.1,.5,"eiqbase1",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"sashi",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth1",
+"resonbord1",34,224,3.0,4.0,2);
+
+insert into projectleadmaster values(3,"september",2009,17,23,54,7,140,8,600,2.5,66,67,68,69,29,
+"mahi1",'2014-02-13',3.1,.5,"eiqbase1",23,3.2,3.3,3.4,3.4,3.4,14,4,3.5,"sashi",'2015-09-19',
+5.0,5.1,5.2,5.3,5.4,60,51,2,46,49,9.0,9.1,9.2,9.3,9.4,70,61,62,63,64,300,"projhealth1",
+"resonbord1",34,224,3.0,4.0,3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
